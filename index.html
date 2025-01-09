@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind+Vadodara:wght@300;400;500;600;700&family=IBM+Plex+Sans+KR&family=Inder&family=Inika:wght@400;700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+Georgian:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Phetsarath:wght@400;700&family=Poetsen+One&family=Prata&family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>CSS5-8</title>
+  </head>
+  <body>
+    <div class="everything_wrapper">
+      <aside>
+        <img src="./images/logo.png" alt="Logo" />
+        <div class="company_wrapper">
+          <nav class="company_nav">
+            <div class="nav_items_wrapper yellow_one general">
+              <span class="nav_items"><a href="#">General</a></span>
+            </div>
+            <div class="nav_items_wrapper members">
+              <span class="nav_items"><a href="#">Members</a></span>
+            </div>
+            <div class="nav_items_wrapper teams">
+              <span class="nav_items"><a href="#">Teams</a></span>
+            </div>
+            <div class="nav_items_wrapper custom_fields">
+              <span class="nav_items"><a href="#">Custom fields</a></span>
+            </div>
+          </nav>
+        </div>
+        <div class="account_wrapper">
+          <nav class="account_nav">
+            <div class="nav_items_wrapper profile">
+              <span class="nav_items"><a href="#">Profile</a></span>
+            </div>
+            <div class="nav_items_wrapper my_works">
+              <span class="nav_items"><a href="#">My works</a></span>
+            </div>
+          </nav>
+        </div>
+      </aside>
+      <div class="main_content_wrapper">
+        <header>
+          <div class="hidden_one"></div>
+          <div class="search_wrapper">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search"
+            />
+          </div>
+          <div class="profile_wrapper">
+            <span class="user_name">Devon Lane</span>
+          </div>
+        </header>
+        <main>
+          <section class="first_sec max_width">
+            <div class="first_sec_txt_area">
+              <h1>GIFTING DAYS</h1>
+              <h2 class="first_sec_heading">Buy one and get one free</h2>
+              <p class="first_sec_p">
+                Pellentesque vehicula eros neque, maximus mattis est sagittis
+                facilisi.”<span>In sed pretium metus</span>”.
+              </p>
+            </div>
+            <img src="./images/grinchWithMoney.png" alt="Grinch" />
+          </section>
+          <section class="second_sec max_width">
+            <div class="filter_items grinch yellow">
+              <span class="filters">ALL</span>
+            </div>
+            <div class="filter_items grinch">
+              <span class="filters">Grinch</span>
+            </div>
+            <div class="filter_items snape">
+              <span class="filters">Harry Potter</span>
+            </div>
+            <div class="filter_items snape">
+              <span class="filters">Harry Potter</span>
+            </div>
+            <div class="filter_items spongebob">
+              <span class="filters">SpongeBob</span>
+            </div>
+          </section>
+          <section class="third_sec max_width">
+            <div class="third_sec_txt_area">
+              <h2 class="sale_heading">Flash Sale</h2>
+              <div class="sale_info_wrapper">
+                <span class="on_sale">On sale Now</span>
+                <div class="time_ending_wrapper">
+                  <span class="ending_time_txt">Ending in</span>
+                  <div class="time_wrapper">
+                    <span class="hour">05</span>
+                    <div class="dots_wrapper"></div>
+                    <span class="minute">53</span>
+                    <div class="dots_wrapper"></div>
+                    <span class="second">40</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="third_sec_cards_wrapper">
+              <div class="third_sec_cards">
+                <img src="./images/prisonerGrinch.png" alt="Grinch" />
+                <div class="third_sec_card_txt_area">
+                  <div class="third_sec_txt_wrapper">
+                    <div class="star">
+                      <div class="star">
+                        <div class="star">
+                          <div class="star">
+                            <div class="star"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h3 class="card_heading">How i stole Christmas</h3>
+                    <p class="cards_p">
+                      Grinch got caught stealing Christmas spirit.
+                    </p>
+                    <div class="price_wrapper">
+                      <span class="new_price">$10.99</span>
+                      <span class="old_price">$16.99</span>
+                    </div>
+                  </div>
+                  <button class="add_to_cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="third_sec_cards">
+                <img src="./images/prisonerGrinch.png" alt="Grinch" />
+                <div class="third_sec_card_txt_area">
+                  <div class="third_sec_txt_wrapper">
+                    <div class="star">
+                      <div class="star">
+                        <div class="star">
+                          <div class="star">
+                            <div class="star"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h3 class="card_heading">How i stole Christmas</h3>
+                    <p class="cards_p">
+                      Grinch got caught stealing Christmas spirit.
+                    </p>
+                    <div class="price_wrapper">
+                      <span class="new_price">$10.99</span>
+                      <span class="old_price">$16.99</span>
+                    </div>
+                  </div>
+                  <button class="add_to_cart">Add to cart</button>
+                </div>
+              </div>
+              <div class="third_sec_cards">
+                <img src="./images/prisonerGrinch.png" alt="Grinch" />
+                <div class="third_sec_card_txt_area">
+                  <div class="third_sec_txt_wrapper">
+                    <div class="star">
+                      <div class="star">
+                        <div class="star">
+                          <div class="star">
+                            <div class="star"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h3 class="card_heading">How i stole Christmas</h3>
+                    <p class="cards_p">
+                      Grinch got caught stealing Christmas spirit.
+                    </p>
+                    <div class="price_wrapper">
+                      <span class="new_price">$10.99</span>
+                      <span class="old_price">$16.99</span>
+                    </div>
+                  </div>
+                  <button class="add_to_cart">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="fourth_sec before1 max_width">
+            <div class="fourth_sec_cards_wrapper">
+              <div class="same_cards">
+                <div class="cards_image img1"></div>
+                <div class="txt_area">
+                  <div class="big_star">
+                    <div class="big_star">
+                      <div class="big_star">
+                        <div class="big_star">
+                          <div class="big_star"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="cards_heading">How i stole Christmas</h3>
+                  <p class="card_p">Grinch got caught stealing Christmas spirit—now serving time in Santa's naughty list penitentiary!</p>
+                </div>
+              </div>
+              <div class="same_cards">
+                <div class="cards_image img2"></div>
+                <div class="txt_area">
+                  <div class="big_star">
+                    <div class="big_star">
+                      <div class="big_star">
+                        <div class="empty_star">
+                          <div class="empty_star"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="cards_heading">Spider-Man</h3>
+                  <p class="card_p">Spider-Man swinging into a new dimension—glitter, glam, and fabulous web-slinging</p>
+                </div>
+              </div>
+              <div class="same_cards">
+                <div class="cards_image img3"></div>
+                <div class="txt_area">
+                  <div class="big_star">
+                    <div class="big_star">
+                      <div class="empty_star">
+                        <div class="empty_star">
+                          <div class="empty_star"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="cards_heading">Spongebob boss</h3>
+                  <p class="card_p">SpongeBob leveled up—straight from Bikini Bottom to blinged-out boss mode!</p>
+                </div>
+              </div>
+              <div class="same_cards">
+                <div class="cards_image img4"></div>
+                <div class="txt_area">
+                  <div class="big_star">
+                    <div class="big_star">
+                      <div class="big_star">
+                        <div class="big_star">
+                          <div class="big_star"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="cards_heading">Spongebob boss</h3>
+                  <p class="card_p">When Squidward trades his clarinet for clout and a double cup</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="fourth_sec before2 max_width">
+            <div class="fourth_sec_cards_wrapper">
+              <div class="same_cards">
+                <div class="cards_image img5"></div>
+                <div class="txt_area">
+                  <div class="big_star">
+                    <div class="big_star">
+                      <div class="big_star">
+                        <div class="empty_star">
+                          <div class="empty_star"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="cards_heading">Professor Snape</h3>
+                  <p class="card_p">When Professor Snape brews a potion for swag and crashes Barbie's dream party!</p>
+                </div>
+              </div>
+              <div class="same_cards">
+                <div class="cards_image img6"></div>
+                <div class="txt_area">
+                  <div class="big_star">
+                    <div class="big_star">
+                      <div class="empty_star">
+                        <div class="empty_star">
+                          <div class="empty_star"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="cards_heading">Flex mans</h3>
+                  <p class="card_p">Harry Potter and the Goblet of Drip: Dobby flexes his freedom in style!</p>
+                </div>
+              </div>
+              <div class="same_cards">
+                <div class="cards_image img7"></div>
+                <div class="txt_area">
+                  <div class="big_star">
+                    <div class="big_star">
+                      <div class="big_star">
+                        <div class="big_star">
+                          <div class="big_star"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="cards_heading">Dumbledore</h3>
+                  <p class="card_p">Abracadabra, but make it fabulous.</p>
+                </div>
+              </div>
+              <div class="same_cards">
+                <div class="cards_image img8"></div>
+                <div class="txt_area">
+                  <div class="big_star">
+                    <div class="big_star">
+                      <div class="empty_star">
+                        <div class="empty_star">
+                          <div class="empty_star"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h3 class="cards_heading">Avada kedrippa</h3>
+                  <p class="card_p">Nagini’s just here for the photo op</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

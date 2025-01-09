@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+body {
+  color: #fff;
+  background-color: #141414;
+}
+.everything_wrapper {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.max_width {
+  max-width: 1088px;
+  width: 100%;
+  display: flex;
+}
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+aside {
+  border-right: 1px solid #434343;
+  background-color: #222224;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 16px;
+}
+.company_wrapper,
+.account_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #434343;
+}
+.company_wrapper::before {
+  content: "Company";
+}
+.company_nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.nav_items_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+}
+.yellow_one {
+  border-radius: 12px;
+  background-color: #fae101;
+}
+.nav_items,
+.nav_items > a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.yellow_one a {
+  color: #000;
+}
+.general::before {
+  content: url(./images/home.svg);
+}
+.members::before {
+  content: url(./images/member.svg);
+}
+.teams::before {
+  content: url(./images/team.svg);
+}
+.custom_fields::before {
+  content: url(./images/fields.svg);
+}
+.profile::before {
+  content: url(./images/member.svg);
+}
+.my_works::before {
+  content: url(./images/team.svg);
+}
+.general::before,
+.members::before,
+.teams::before,
+.custom_fields::before,
+.profile::before,
+.my_works::before {
+  height: 24px;
+}
+.account_wrapper::before {
+  content: "Account";
+}
+.account_wrapper::before,
+.company_wrapper::before {
+  color: #989898;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.main_content_wrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #434343;
+  flex-wrap: wrap-reverse;
+}
+.hidden_one {
+  max-width: 142px;
+  width: 100%;
+}
+.profile_wrapper::after {
+  content: url(./images/profile.png);
+}
+.profile_wrapper {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.search_wrapper::after {
+  content: url(./images/search.svg);
+  border-radius: 0px 8px 8px 0px;
+  background-color: #fae101;
+  padding: 8px 12px;
+}
+.search_wrapper {
+  display: flex;
+  max-width: 484px;
+  width: 100%;
+}
+#search {
+  flex-grow: 1;
+  border-radius: 8px 0px 0px 8px;
+  border-top: 1px solid #fae101;
+  border-bottom: 1px solid #fae101;
+  border-left: 1px solid #fae101;
+  background-color: #00000000;
+  padding: 8px 10px;
+  border-right: 0;
+  color: #FAE101;
+  font-size: 14px;
+  line-height: 24px;
+}
+#search::placeholder {
+  color: #FAE101;
+  font-size: 14px;
+  line-height: 24px;
+}
+.user_name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 32px 0;
+}
+.first_sec {
+  gap: 259px;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #222224;
+  padding: 19px 40px;
+  flex-wrap: wrap;
+}
+.first_sec_txt_area {
+  max-width: 336px;
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+h1 {
+  color: #fae101;
+  font-size: 48px;
+  font-weight: 600;
+}
+.first_sec_heading {
+  font-size: 40px;
+  font-weight: 800;
+  max-width: 247px;
+}
+.first_sec_p {
+  color: #b7b7b7;
+  font-size: 16px;
+  font-style: italic;
+  max-width: 314px;
+}
+.first_sec_p > span {
+  color: #b7b7b7;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+}
+.grinch::before {
+  content: url(./images/grinchFilter.png);
+}
+.snape::before {
+  content: url(./images/severusTongue.png);
+}
+.spongebob::before {
+  content: url(./images/funnySpongebob.png);
+}
+.filter_items::before {
+  height: 32px;
+}
+.filter_items {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px 8px 12px;
+  border-radius: 24px;
+  background-color: #222224;
+  gap: 12px;
+}
+.second_sec {
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.filters {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.yellow > span {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.yellow {
+  border-radius: 24px;
+  background-color: #FAE101;
+}
+.hour, .minute, .second {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 4px;
+  background-color: #FAE101;
+  padding: 10px ;
+}
+.time_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.dots_wrapper::after, .dots_wrapper::before {
+  content: " ";
+  border-radius: 50px;
+  background-color: #D9D9D9;
+  width: 4px;
+  height: 4px;
+}
+.dots_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.time_ending_wrapper {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.sale_info_wrapper {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.ending_time_txt {
+  color: #797979;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.on_sale {
+  color: #FAE101;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.sale_heading {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.star::before {
+  content: url(./images/smallStar.svg);
+}
+.third_sec {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.third_sec_cards_wrapper {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.third_sec_cards {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+}
+.star {
+  display: flex;
+  gap: 2px;
+}
+.card_heading {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.cards_p {
+  color: #797979;
+  font-size: 14px;
+  line-height: 18px;
+}
+.new_price {
+  color: #FAE101;
+  font-size: 16px;
+  line-height: 18px;
+}
+.old_price {
+  color: #797979;
+  font-size: 14px;
+  line-height: 18px;
+}
+.third_sec_card_txt_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: stretch;
+}
+.third_sec_txt_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.third_sec_cards {
+  height: 260px;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 12px;
+  border: 1px solid #FAE101;
+  background-color: #222224;
+  max-width: 352px;
+}
+.add_to_cart {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #FAE101;
+}
+.fourth_sec {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.before1::before {
+  content: "All Themes";
+}
+.before1::before, .before2::before {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.before2::before {
+  content: "Harry Potter";
+}
+.fourth_sec_cards_wrapper {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.same_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  max-width: 254px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #FAE101;
+}
+.cards_heading {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.card_p {
+  color: #797979;
+  font-size: 14px;
+  line-height: 18px;
+}
+.txt_area {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.big_star::before {
+  content: url(./images/normStar.svg);
+}
+.empty_star::before {
+  content: url(./images/emptyStar.svg);
+}
+.big_star, .empty_star {
+  display: flex;
+  align-items: center;
+}
+.cards_image {
+  height: 171px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 9px;
+}
+.img1 {
+  background-image: url(./images/prisonerGrinch.png);
+}
+.img2 {
+  background-image: url(./images/spiderman.png);
+}
+.img3 {
+  background-image: url(./images/smiling_spongebob.png);
+}
+.img4 {
+  background-image: url(./images/squidward.png);
+}
+.img5 {
+  background-image: url(./images/funny_snape.png);
+}
+.img6 {
+  background-image: url(./images/harry.png);
+}
+.img7 {
+  background-image: url(./images/dumbledore.png);
+}
+.img8 {
+  background-image: url(./images/valdemort.png);
+}
